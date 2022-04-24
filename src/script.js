@@ -3,7 +3,7 @@ let isPhoneRequired = false
 const phoneLabelSpan = document.querySelector('.phone-label-span')
 const phoneField = document.getElementById('phone')
 
-ocument.querySelector('#phone-checkbox')
+document.querySelector('#phone-checkbox')
   .addEventListener('change', function() {
     if (this.checked) {
       phoneLabelSpan.style.display = 'inline'
@@ -16,7 +16,7 @@ ocument.querySelector('#phone-checkbox')
     }
   })
 
-ocument.querySelector('button[type="submit"]')
+document.querySelector('button[type="submit"]')
   .addEventListener('click', function(event) {
     event.preventDefault()
     const firstNameField = document.getElementById('firstName')
