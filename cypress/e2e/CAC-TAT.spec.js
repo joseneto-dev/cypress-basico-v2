@@ -47,7 +47,7 @@ describe('Central de Atendimento ao Cliente TAT', function(){
         cy.get('.error').should('be.visible')
     })
     it('envia o formuário com sucesso usando um comando customizado', () => {
-        cy.fillMandatoryFieldsAndSubmit()
+        cy.fillMandatoryFieldsAndSubmit('José')
         cy.get('.success').should('be.visible')
     })
     it('seleciona um produto (YouTube) por seu texto', () => {
@@ -99,5 +99,9 @@ describe('Central de Atendimento ao Cliente TAT', function(){
         cy.get('#privacy a').invoke('removeAttr', 'target').click()
         cy.contains('Talking About Testing')
     })
+    it('Desafio encontre o gato', () => {
+        cy.get('#cat').invoke('show').should('be.visible')
+    })
+    
 })
 //})
