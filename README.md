@@ -1,6 +1,6 @@
-# Testes automatizados com Cypress - Básico
+# Testes automatizados com Cypress - Básico 
 
-👋 Seja bem-vindo(a)!
+👋 Seja bem-vindo(a) José!
 
 É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
 
